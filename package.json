@@ -1,0 +1,12 @@
+{
+  "name": "PlaywrightProject1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Vadym Tymeichuk <40869955+Vadym11@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^24.0.1"
+  },
+  "scripts": {}
+}
