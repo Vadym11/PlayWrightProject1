@@ -35,3 +35,6 @@ test-results
 /blob-report/
 /playwright/.cache/
 playwright-commands.txt
+
+# MacOs files
+.DS_Store
