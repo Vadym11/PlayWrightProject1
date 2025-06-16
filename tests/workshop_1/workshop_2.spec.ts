@@ -25,7 +25,7 @@ test('Interacting with a webelement on GitLab POM', async ({page}) => {
     await page.waitForTimeout(3000);
 })
 
-test.only('Automating Form Submission', async ({page}) => {
+test('Automating Form Submission', async ({page}) => {
     
     const newTodo = await page.getByPlaceholder('What needs to be done?');
     await newTodo.fill('John Doe');
@@ -45,7 +45,7 @@ test.only('Automating Form Submission', async ({page}) => {
     await page.waitForTimeout(3000);
 })
 
-test.only('Handling form', async ({page}) => {
+test('Handling form', async ({page}) => {
     const placeholderLocator = '[placeholder="What needs to be done?"]';
 
     await page.fill(placeholderLocator, 'John Doe');
