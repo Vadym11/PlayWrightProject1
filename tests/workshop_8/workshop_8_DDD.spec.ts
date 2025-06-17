@@ -19,7 +19,7 @@ test.describe('POM example', () => {
 
     for(const data of Object.values(testData)) {
         if (data.testName === 'Test 1 - Fill Input' || data.testName === 'Test 1 - Negative test') {
-            test.only(data.testName, async () => {
+            test(data.testName, async () => {
                 await pageObject.fillFirstName(data.firstName);
                 await pageObject.fillAge(data.age);
                 if (data.isStudent) {
