@@ -48,7 +48,7 @@ test('Add cookie', async ({page}) => {
     await expect(sessionCookie).toBeDefined();
 })
 
-test.only('Delete cookie', async ({page}) => {
+test('Delete cookie', async ({page}) => {
 
     // setting cookies
     await page.click('#setCookie');
