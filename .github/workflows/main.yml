@@ -4,8 +4,8 @@ on:
     branches: [main, master]
   pull_request:
     branches: [main, master]
-  # schedule:
-  #   - cron: '* * * * *'
+  schedule:
+    - cron: '*/5 * * * *'
   #? minute - hour - day - month - day of week
 jobs:
   test:
